@@ -1,0 +1,87 @@
+{
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[json5]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.rulers": [80],
+    "editor.wordWrapColumn": 80,
+    "files.trimTrailingWhitespace": false
+  },
+  "css.validate": false,
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports.ts",
+    "source.removeUnusedImports",
+    "source.fixAll.eslint",
+    "source.formatDocument"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": true,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "other": true,
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "eslint.lintTask.enable": true,
+  "eslint.onIgnoredFiles": "warn",
+  "eslint.problems.shortenToSingleLine": true,
+  "eslint.useESLintClass": true,
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "markdown",
+    "typescript",
+    "typescriptreact",
+    "yaml"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "(?:\\b(?:const|let|var)\\s+)?[\\w$_]*(?:[Ss]tyles?|[Cc]lasses?|[Cc]lass[nN]ames?)[\\w\\d]*\\s*(?:=|\\+=)\\s*['\"]([^'\"]*)['\"]"
+    ],
+    [
+      "(?:[Ss]tyles?|[Cc]lasses?|[Cc]lass[nN]ames?)\\s*(?::\\s*[^=]+)?\\s*=\\s*([^;]*);",
+      "['\"`]([^'\"`]*)['\"`]"
+    ],
+    ["classList.(?:add|remove)\\(([^)]*)\\)", "(?:'|\"|`)([^\"'`]*)(?:'|\"|`)"],
+    [
+      "(?:twMerge|twJoin|cn|cj|classnames)\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*)[\"'`]"
+    ]
+  ],
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "html": "html",
+    "javascript": "javascript",
+    "typescriptreact": "html"
+  },
+  "tailwindCSS.rootFontSize": 8,
+  "typescript.format.enable": false,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

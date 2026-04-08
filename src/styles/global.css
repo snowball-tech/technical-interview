@@ -1,0 +1,98 @@
+@import url('normalize.css') layer(reset);
+@import url('tailwindcss/base') layer(base);
+@import url('@snowball-tech/design-tokens/dist/web/css/fonts.css')
+layer(fractal);
+@import url('@snowball-tech/design-tokens/dist/web/css/variables.css')
+layer(fractal);
+@import url('tailwindcss/components');
+@import url('tailwindcss/utilities');
+
+@layer reset, base, fractal, components, utilities;
+
+:root {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+}
+
+@layer reset {
+  *,
+  ::before,
+  ::after {
+    border-width: 0;
+    border-style: solid;
+    border-color: var(--color-border-default);
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    width: 100vw;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+  }
+
+  div {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: var(--color-brand-secondary);
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  *::selection {
+    background-color: var(--color-brand-primary);
+  }
+}
+
+@supports (height: 100dvh) {
+  .h-screen {
+    height: 100dvh;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "mattpocock.ts-error-translator",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "ellreka.tailwindcss-highlight"
+  ]
+}

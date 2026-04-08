@@ -1,0 +1,109 @@
+# Misc. MacOS
+**/*.DS_Store
+
+# Logs
+**/*.log
+**/npm-*.log*
+**/yarn-*.log*
+**/*.tsbuildinfo
+**/vite.config.ts.timestamp*
+
+# Local testing
+*.tgz
+**/.yalc/*
+**/yalc.lock
+**/sandbox
+dump
+
+# E2E Testing.
+**/test-results/
+**/results/
+**/playwright-report/
+**/reports/
+**/playwright/.cache/
+
+# Cache
+**/.eslintcache
+
+# Coverage
+**/coverage
+
+# Dependencies
+**/node_modules
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Next.JS
+**/.next
+next-env.d.ts
+**/analyze/**/*.html
+
+# Production
+**/build
+**/out
+**/dist
+
+# Secret files
+**/.env*.local
+**/.env
+*.pem
+
+# IDE
+**/.idea
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw?
+.vscode/**
+# Let's keep the extensions.json file because it references all the recommended
+# extensions for this workspace. That way, newcomers will receive suggestions.
+!.vscode/extensions.json
+# Also keeps the settings file because it's critical for VSCode to properly work
+# in the mono-repository.
+!.vscode/settings.json
+# Cursor AI and MCP configurations.
+.cursor/rules/**
+.cursor/mcp.json
+# Files from the VSCode "SQLTools" extensions.
+**/*.session.sql
+*.code-workspace
+
+# Storybook.
+**/storybook-static
+
+# Vercel.
+**/.vercel
+.vercel
+
+# Supabase.
+**/supabase/data.*sql
+**/supabase/.temp
+
+# Misc.
+*.bak
+**/tmp
+**/temp
+**/knip.md
+
+# Claude.
+.claude/*.local.*
+
+# Translations
+**/i18n/*.json
+**/public/translations
+**/src/translations
+
+# Supabase
+**/supabase/.branches
+**/supabase/.temp
+**/supabase/.env
+
+# This file is only used for the Tailwind VSCode extension.
+tailwind.config.cjs
+
+# Internal docs (never committed)
+.internal/
